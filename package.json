@@ -1,0 +1,39 @@
+{
+  "name": "step-project-forkio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "browserslist": [
+    "last 20 versions"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Ramin.Kuraishy/step-project-forkio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Ramin.Kuraishy/step-project-forkio/issues"
+  },
+  "homepage": "https://gitlab.com/Ramin.Kuraishy/step-project-forkio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-purgecss": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}

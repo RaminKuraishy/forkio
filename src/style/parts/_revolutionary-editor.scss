@@ -1,0 +1,93 @@
+.revolutionary-editor {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    &_title {
+      padding: 0 12%;
+      color: $color1;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 108%;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+    }
+    &_text {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: $color2;
+      margin-bottom: 25px;
+      padding-left: 7%;
+      padding-right: 7%;
+    }
+    &_label {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      .item-wrapper {
+        display: flex;
+        justify-content: space-between;
+        background-color: $color4;
+        padding: 7px;
+        border-right: solid 1px $color5;
+      }
+      &_item {
+        display: flex;
+        text-align: start;
+        margin-bottom: 20px;
+        border: solid 1px $color5;
+        margin-right: 3.7%;
+        margin-left: 3.7%;
+        &_text {
+          padding-left: 5px;
+        }
+        &_number {
+          padding: 7px;
+        }
+      }
+    }
+  }
+  @media (min-width: 481px) {
+    .revolutionary-editor {
+      &_title {
+      }
+      &_text {
+        padding-left: 13%;
+        padding-right: 13%;
+      }
+      &_label {
+        .item-wrapper {
+        }
+        &_item {
+          &_text {
+          }
+          &_number {
+          }
+        }
+      }
+    }
+}
+@media (min-width: 993px) {
+    .revolutionary-editor {
+      &_title {
+      }
+      &_text {
+        padding-left: 25%;
+        padding-right: 25%;
+      }
+      &_label {
+        .item-wrapper {
+        }
+        &_item {
+          &_text {
+          }
+          &_number {
+          }
+        }
+      }
+    }
+}

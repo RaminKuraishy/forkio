@@ -1,0 +1,142 @@
+.opportunities {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    &_title {
+      text-align: center;
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 38px;
+      color: $color6;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    &_list {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      &_item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+          &_wrapper{
+              min-width: 120px;
+              object-fit: cover;
+  
+              &_img {
+                  margin-bottom: 30px;
+                  margin-top: 30px;
+                }
+          }
+        
+        &_info {
+          color: $color3;
+          &_title {
+            font-size: 16px;
+            line-height: 16px;
+            color: $color2;
+            margin-bottom: 20px;
+          //   padding-left: 5%;
+          }
+          &_text {
+            font-family: "Lato";
+          //   padding-left: 5%;
+          }
+        }
+      }
+    }
+    &_image-wrapper {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+    &_img {
+      max-width: 317px;
+      max-height: 381px;
+    }
+  }
+  .opportunities-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  @media (min-width: 481px) {
+  .opportunities {
+    &_title {
+    }
+    &_list {
+      text-align: start;
+
+      &_item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &_wrapper{
+
+
+            &_img {
+                margin-right: 5px;
+                
+              }
+        }
+        &_info {
+          padding-right: 10px;
+          &_title {
+            margin-bottom: 0px;
+          }
+          &_text {
+          }
+        }
+      }
+    }
+    &_img {
+      max-width: 700px;
+      max-height: 519px;
+    }
+  }
+}
+
+@media (min-width: 983px) {
+
+.opportunities {
+    background-color: $color7;
+    &_title {
+      position: absolute;
+      right: 150px;
+      top: -20px;
+    }
+    &_list {
+      text-align: start;
+
+      &_item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        // justify-content: space-around;
+        &_img {
+            margin-right: 5px;
+
+        }
+        &_info {
+          padding-right: 10px;
+          &_title {
+            margin-bottom: 0px;
+          }
+          &_text {
+          }
+        }
+      }
+    }
+    &_img {
+      width: 700px;
+      height: 519px;
+    }
+  }
+  .opportunities-wrapper {
+    position: relative;
+    flex-direction: row;
+  }
+}

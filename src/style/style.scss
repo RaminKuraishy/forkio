@@ -1,0 +1,17 @@
+@import 'parts/normalize';
+@import 'parts/variables';
+@import 'parts/header';
+@import "parts/revolutionary-editor";
+@import "parts/opportunities";
+@import 'parts/about';
+@import "parts/pricing";
+
+* {
+  font-family: "Montserrat";
+}
+.container {
+    max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
